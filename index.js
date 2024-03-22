@@ -11,9 +11,11 @@ app.use(express.json())
 
 //rotas - endpoints
 app.get('/', (request, response) => {
-    return response.json({message: 'Server is up'})
+    return response.json({message: 'Server Logic'})
 })
-
+app.get('Logic', (request, response) => {
+    return response.json({message: 'Server Atualizou mesmo'})
+})
 
 
 app.listen(3333)
