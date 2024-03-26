@@ -16,6 +16,9 @@ app.get('/', (request, response) => {
 app.get('/logic', (request, response) => {
     return response.json({message: 'Server Atualizou mesmo'})
 })
+app.get('/logic/home', (request, response) => {
+    return response.json({message: 'Server Atualizou home page'})
+})
 
 
 app.listen(3333)

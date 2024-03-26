@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js 52.67.11.45 3333"
+    "start": "nodemon ./index.js 15.228.160.172 3333"
   },
   "keywords": [],
   "author": "",
