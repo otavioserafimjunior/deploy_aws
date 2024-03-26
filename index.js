@@ -13,7 +13,7 @@ app.use(express.json())
 app.get('/', (request, response) => {
     return response.json({message: 'Server Logic'})
 })
-app.get('Logic', (request, response) => {
+app.get('/logic', (request, response) => {
     return response.json({message: 'Server Atualizou mesmo'})
 })
 
